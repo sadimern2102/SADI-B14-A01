@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.nav-items{
+    margin:auto 0;
+}
+.nav-items ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav-items ul li{
+    list-style: none;
+}
+.nav-items ul li a{
+    font-family: "Arimo", sans-serif;
+    color: #575757;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button{
+    margin:auto 0;
+}
+.button .btn{
+    background-color: #1D4ED8;
+    color: #fff;
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 5px;
+    border: none;
+}
