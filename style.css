@@ -47,3 +47,46 @@ nav{
     border-radius: 5px;
     border: none;
 }
+
+/* Hero Section Start */
+.hero{
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+   
+}
+.hero-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+     padding: 50px 0;
+}
+.hero-content{
+    text-align: center;
+    z-index: 999;
+    padding-top:50px;
+    padding-bottom: 200px;
+}
+.hero-content h1{
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    width: 821px;
+    margin: 0 auto;
+}
+.hero-btn{
+    text-align: center;
+}
+.hero-btn .btn{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px 30px;
+}
