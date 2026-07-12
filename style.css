@@ -90,3 +90,200 @@ nav{
     font-weight: 500;
     padding: 15px 30px;
 }
+
+/* hero section end */
+.meet-the-speakers{
+    padding: 50px 0;
+}
+.meet-the-speakers .speker-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.meet-the-speakers .speker-head h1{
+    font-family: "Inter", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.meet-the-speakers .main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.meet-the-speakers .main .item{
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: #f0efef 0px 4px 20px 0px;
+}
+.meet-the-speakers .main .item img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.meet-the-speakers .main .text{
+    padding: 0 10px;
+}
+.meet-the-speakers .main h3{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #2563EB;
+    margin-top: 10px;
+}
+.meet-the-speakers .main h2{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-top: 10px;
+}
+.meet-the-speakers .main p{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    margin: 10px 0;
+}
+
+/* Speakers Section End */
+/* Pricing Section Start */
+
+.pricing{
+    padding: 50px 0;
+}
+.pricing .pricing-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pricing .pricing-head h1{
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.pricing .pricing-head h4{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #575757;
+    margin-top: 15px;
+}
+.pricing .main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.pricing .main .item{
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: #f0efef 0px 4px 20px 0px;
+    padding: 30px 30px;
+}
+.pricing .main .item .list{
+    margin: 30px 0;
+    padding: 20px 20px 0 20px;
+    border-top: 1px solid #E5E7EB;
+}
+
+.pricing .main .item .list ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin: 10px 0;
+}
+.pricing .main .item .list ul li::marker{
+    color: #1D4ED8;
+    font-size: 14px;
+}
+.pricing .main .item h2{
+    font-family: "Inter", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #0D1B2A;
+}
+.pricing .main .item h3{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #888888;
+}
+.pricing .main .item p{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+}
+.pricing .main .item .btn{
+    background-color: transparent;
+    color: #1D4ED8;
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #1D4ED8;
+    width: 100%;
+    padding: 15px 0;
+}
+
+
+
+
+
+.pricing .main .highlight{
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: #f0efef 0px 4px 20px 0px;
+    padding: 30px 30px;
+    background-color: #0D1B2A;
+}
+.pricing .main .highlight .list{
+    margin: 30px 0;
+    padding: 20px 20px 0 20px;
+    border-top: 1px solid #E5E7EB;
+}
+
+.pricing .main .highlight .list ul li{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 10px 0;
+}
+.pricing .main .highlight .list ul li::marker{
+    color: #1D4ED8;
+    font-size: 14px;
+}
+.pricing .main .highlight h2{
+    font-family: "Inter", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.pricing .main .highlight h3{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #1D4ED8;
+}
+.pricing .main .highlight p{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.pricing .main .highlight .btn{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #1D4ED8;
+    width: 100%;
+    padding: 15px 0;
+}
+
+
+
+
+
+
