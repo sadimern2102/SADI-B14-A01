@@ -17,6 +17,7 @@ nav{
     justify-content: space-between;
     padding: 20px 0;
 }
+
 .nav-items{
     margin:auto 0;
 }
@@ -34,6 +35,11 @@ nav{
     font-size: 16px;
     font-weight: 500;
 }
+.nav-items ul li a:hover{
+    color: #1D4ED8;
+    transition: 0.3s ;
+    text-transform: scale(1.1);
+}
 .button{
     margin:auto 0;
 }
@@ -46,6 +52,14 @@ nav{
     padding: 10px 24px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+    border: 1px solid #1D4ED8;
+}
+.button .btn:hover{
+    background-color: #FFFFFF;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;  
+    transition: 0.3s ;
 }
 
 /* Hero Section Start */
@@ -222,6 +236,7 @@ nav{
     border: 1px solid #1D4ED8;
     width: 100%;
     padding: 15px 0;
+    cursor: pointer;
 }
 
 
@@ -280,6 +295,7 @@ nav{
     border: 1px solid #1D4ED8;
     width: 100%;
     padding: 15px 0;
+    cursor: pointer;
 }
 
 /* Pricing Section End */
